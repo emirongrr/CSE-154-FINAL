@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+    width: 100%;
+    background: linear-gradient(-45deg, #2588a1, #da3e7f, #a255cf, #418dd4);
+    background-size: 400% 400%;
+    height: 100vh;
+    animation: efect 60s ease infinite;
+    z-index: -2;
+  }
+
 .header {
 display: flex;
 position: relative;
@@ -6,48 +17,7 @@ opacity:0.78;
 flex-wrap: wrap;
 align-items:center ;
 background: linear-gradient(0, #18151a 5%, #141313 50%);
-padding-left:var(--spacing-small);
-padding-top:var(--spacing-small);
-padding-bottom:var(--spacing-medium);
-padding-right:var(--spacing-large);
 height: 100px;
-}
-
-
-body {
-  width: 100%;
-  background: linear-gradient(-45deg, #2588a1, #851b85, #a255cf, #418dd4);
-  background-size: 400% 400%;
-  height: 100vh;
-  animation: efect 60s ease infinite;
-  z-index: -2;
-}
-
-
-
-@keyframes efect {
-  0% {
-      background-position: 0% 50%
-  }
-  50% {
-      background-position: 100% 50%
-  }
-  100% {
-      background-position: 0% 50%
-  }
-}
-
-.blue {
-    color:rgb(45, 226, 226);
-}
-.orange {
-    color:rgb(209, 95, 2);
-}
-.yellow {
-    color:rgb(224, 224, 14);
-}
-.pink{
-    color:rgb(238, 107, 234);
 }
 
 
@@ -60,11 +30,140 @@ body {
     letter-spacing:.1em;
     gap: 1em;
     font-family: 'Press Start 2P';
+}
 
 
 
+.fo {   
+    display: flex;
+    justify-content: center;
+    font-family: Nunito ;
+}
+
+
+.social {
+    width:auto;
+    border-radius:1rem;
+    display: flex;
+    align-content:center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1rem; 
+    padding-bottom: 1rem;
+    padding-left: .5rem; 
+    padding-right: .5rem;
+}
+
+.wrapper {
+    width: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: x-large;
+    padding: 2rem;
 
 }
+
+.emojiTyped {
+    	
+    font-size:2.25rem;	
+    text-align:center;
+    margin: 2rem;
+    color: #111;
+    font-weight:600;
+
+}
+
+.stringTyped {
+    	
+    font-size:2.25rem;
+    text-align:center;
+    margin: 2rem;
+    color: #111;
+    font-family: 'Press Start 2P';
+    font-weight:600;
+
+}
+
+
+
+.s {
+    color: #111;
+    display:inline-block;
+    text-align:center;
+    margin-top: .5rem; 
+    margin-bottom: .5rem;
+    margin-left: 1rem; 
+    margin-right: 1rem;
+    backface-visibility: hidden; 
+    transform: translateZ( 0 );
+    transition: transform .25s ease-in-out;
+}
+
+#s_github:hover{
+    text-decoration:none;
+    transition: color .15s ease-in;
+    transform: scale( 1.2 ) ;
+      color: #999;
+}
+
+#s_twitter:hover {
+    text-decoration:none;
+    transition: color .15s ease-in;
+    transform: scale( 1.2 );
+    color: #357edd;
+
+}
+#s_insta:hover {
+    text-decoration:none;
+    transition: color .15s ease-in;
+    transform: scale( 1.2 ) ;
+    color: #5e2ca5;
+}
+
+svg {
+    display:inline-block;
+    height:2rem;
+    width:2rem;
+}
+
+#font {
+    font-weight:900;
+    display:block;
+    font-size:.875rem;
+}
+
+
+.navbar :hover {
+    color: rgb(189, 184, 184);
+}
+
+
+@keyframes efect {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+  }
+  
+  .blue {
+
+      color:rgb(45, 226, 226);
+  }
+  .orange {
+      color:rgb(209, 95, 2);
+  }
+  .yellow {
+      color:rgb(224, 224, 14);
+  }
+  .pink{
+      color:rgb(238, 107, 234);
+  }
 
 
 li {
