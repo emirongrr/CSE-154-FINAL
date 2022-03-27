@@ -16,7 +16,7 @@ height: 100px;
 
 body {
   width: 100%;
-  background: linear-gradient(-45deg, #104350, #290129, #4d2b61, #0f2941);
+  background: linear-gradient(-45deg, #2588a1, #851b85, #a255cf, #418dd4);
   background-size: 400% 400%;
   height: 100vh;
   animation: efect 60s ease infinite;
@@ -37,6 +37,18 @@ body {
   }
 }
 
+.blue {
+    color:rgb(45, 226, 226);
+}
+.orange {
+    color:rgb(209, 95, 2);
+}
+.yellow {
+    color:rgb(224, 224, 14);
+}
+.pink{
+    color:rgb(238, 107, 234);
+}
 
 
 .navbar {
@@ -47,6 +59,8 @@ body {
     text-transform:uppercase;
     letter-spacing:.1em;
     gap: 1em;
+    font-family: 'Press Start 2P';
+
 
 
 
