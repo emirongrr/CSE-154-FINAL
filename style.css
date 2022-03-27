@@ -1,0 +1,58 @@
+.header {
+display: flex;
+position: relative;
+flex-wrap: wrap;
+justify-content: space-around;
+opacity:0.78;
+font-size: 2.2rem;
+align-items:center ;
+background: linear-gradient(0, #18151a 5%, #141313 50%);
+padding-left:var(--spacing-small);
+padding-top:var(--spacing-small);
+padding-bottom:var(--spacing-medium);
+padding-right:var(--spacing-large);
+height: 100px;
+padding: 0;
+margin: 0;
+
+}
+
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(-45deg, #104350, #290129, #4d2b61, #0f2941);
+  background-size: 400% 400%;
+  height: 100vh;
+  animation: efect 60s ease infinite;
+  z-index: -2;
+}
+
+
+
+@keyframes efect {
+  0% {
+      background-position: 0% 50%
+  }
+  50% {
+      background-position: 100% 50%
+  }
+  100% {
+      background-position: 0% 50%
+  }
+}
+
+
+
+.navbar {
+
+
+
+
+}
+
+
+
+
+
