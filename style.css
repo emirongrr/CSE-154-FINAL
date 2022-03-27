@@ -32,12 +32,19 @@ height: 100px;
     font-family: 'Press Start 2P';
 }
 
-
+html {
+    min-height: 100%;
+}
 
 .fo {   
     display: flex;
     justify-content: center;
     font-family: Nunito ;
+    position: absolute;
+    justify-self: center;
+    width: 100%;
+    bottom: 0;
+
 }
 
 
@@ -52,8 +59,12 @@ height: 100px;
     padding-bottom: 1rem;
     padding-left: .5rem; 
     padding-right: .5rem;
-}
 
+
+}
+.container {
+    flex: 1    ;
+}
 .wrapper {
     width: auto;
     display: flex;
@@ -61,30 +72,44 @@ height: 100px;
     justify-content: center;
     font-size: x-large;
     padding: 2rem;
+    
 
 }
 
 .emojiTyped {
-    	
     font-size:2.25rem;	
     text-align:center;
     margin: 2rem;
     color: #111;
     font-weight:600;
 
+
 }
 
 .stringTyped {
-    	
+
+    font-size:2.25rem;
+    text-align:center;
+    margin-bottom: 2rem;
+    color: #111;
+    font-weight:600;
+    
+}
+
+#typed {
+
+    font-family: 'Press Start 2P';
+
+}
+
+.sasa {
+
     font-size:2.25rem;
     text-align:center;
     margin: 2rem;
     color: #111;
-    font-family: 'Press Start 2P';
     font-weight:600;
-
 }
-
 
 
 .s {
@@ -159,6 +184,7 @@ svg {
       color:rgb(209, 95, 2);
   }
   .yellow {
+
       color:rgb(224, 224, 14);
   }
   .pink{
