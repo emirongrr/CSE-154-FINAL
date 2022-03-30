@@ -1,0 +1,61 @@
+.fo {   
+  display: flex;
+  justify-content: center;
+  font-family: Nunito ;
+  position: absolute;
+  justify-self: center;
+  width: 100%;
+  bottom: 0;
+
+}
+
+.fo-items {
+  width:auto;
+  border-radius:1rem;
+  display: flex;
+  align-content:center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 1rem; 
+  padding-bottom: 1rem;
+  padding-left: .5rem; 
+  padding-right: .5rem;
+  
+}
+
+.fo-items a {
+  color: #111;
+  display:inline-block;
+  text-align:center;
+  margin-top: .5rem; 
+  margin-bottom: .5rem;
+  margin-left: 1rem; 
+  margin-right: 1rem;
+  backface-visibility: hidden; 
+  transform: translateZ( 0 );
+  transition: transform .25s ease-in-out;
+}
+
+#s_github:hover{
+  text-decoration:none;
+  transition: color .15s ease-in;
+  transform: scale( 1.2 ) ;
+  color: #999;
+}
+
+#s_twitter:hover {
+  text-decoration:none;
+  transition: color .15s ease-in;
+  transform: scale( 1.2 );
+  color: #357edd;
+
+}
+#s_insta:hover {
+  text-decoration:none;
+  transition: color .15s ease-in;
+  transform: scale( 1.2 ) ;
+  color: #5e2ca5;
+}
+
+
+ 

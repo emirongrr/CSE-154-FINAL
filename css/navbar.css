@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  opacity:0.78;
+  flex-wrap: wrap;
+  align-items:center ;
+  background: linear-gradient(0, #18151a 5%, #141313 50%);
+  height: 90px;
+  }
+  
+  
+.navbar {
+  display: flex;
+  text-align:center;
+  font-size:1.2rem;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  gap: 1em;
+  font-family: 'Press Start 2P';
+  }
+
+.navbar :hover {
+    color: rgb(189, 184, 184);
+}
+
+  
