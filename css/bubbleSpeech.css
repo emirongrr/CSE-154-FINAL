@@ -29,6 +29,7 @@
   min-height: 35vh;
   display: flex;
   flex-direction: column;
+  margin-top: 30px;
 }
 
 .message {
