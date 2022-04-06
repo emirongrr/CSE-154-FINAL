@@ -17,16 +17,7 @@ html {
 .container {
     flex: 1;
 }
-.wrapper {
-    width: auto;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    font-size: x-large;
-    padding: 2rem;
-    
 
-}
 
 .sasa {
 
