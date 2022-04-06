@@ -5,7 +5,7 @@ const projects = [
     shortDescription: "my website fore homework",
     year: "2022",
     tags: ["all","coding","web"],
-    image: "",
+    image: "../avatar.png",
     url: "https://github.com/emirongrr/webProgramming"
   },
   {
@@ -46,3 +46,5 @@ const projects = [
   },
   
 ]
+
+
