@@ -1,20 +1,69 @@
+@import url('http://fonts.cdnfonts.com/css/charriot-deluxe');
+
 .best {
   display: grid;
   grid-gap:30px;
   justify-items:center;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto ;
+  margin: 0 auto;
+  width: fit-content;
 	margin-top: 30px;
 }
 
-.img-content {
-  width: 213px;
-  height: 213px;
-  position: relative;
-  right: 282px;
-  top: 122px;
-  border: 2px solid black;
+.best, a{
+  text-decoration: none;
+  opacity: 1;
 }
 
+
+.best a:hover{
+  opacity: 0.5;
+
+}
+
+
+.image {
+ display: flex;
+ justify-items: center;
+ margin-right: 15px;
+}
+
+.img-content {
+  border: 3px solid black;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin-top: 5px;
+  margin-left: 5px;
+
+}
+
+.info-section {
+  display: flex;
+  flex-direction: row;
+}
+.info-text {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 15px;
+  font-size: 12px;
+  line-height: 16px;
+  color: black;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: 'Charriot Deluxe', sans-serif;
+
+
+}
+.info-text , span {
+  font-size: medium;
+}
+#info-title{
+  font-weight: 900;
+  font-size:medium;
+  font-family: 'Press Start 2P';
+  
+}
 
 .card {
   background-color: rgb(235, 152, 0);
@@ -23,11 +72,12 @@
   border-radius: 5px;
   min-height: 250px;
   min-width: 500px;
-}
+  max-width: 500px;
+  }
 
 .title-bar {
 
-    height: 30px;
+    height: 35px;
     width: 100%;
     background-color: lightgray;
     display: flex;
@@ -36,8 +86,12 @@
 }
 
 .title-text{
-  text-align:end;
-  width: 42%;
+  text-align:center;
+  color: black;
+  width: 100%;
+  font-family: 'Press Start 2P' ;
+  font-size: small;
+
 }
 
 #red {
