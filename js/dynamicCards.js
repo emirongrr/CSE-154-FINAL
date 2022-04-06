@@ -1,7 +1,7 @@
 
-var dynamic = document.querySelector('.best');  
+var dynamic = document.querySelector('.card-section');  
 for (var i = 0; i < projects.length; i++) {
-  var fetch = document.querySelector('.best').innerHTML;
+  var fetch = document.querySelector('.card-section').innerHTML;
   dynamic.innerHTML = `  
         <a href="${projects[i].url}">
         <div class="card">

@@ -5,7 +5,7 @@ const projects = [
     shortDescription: "my website fore homework",
     year: "2022",
     tags: ["all","coding","web"],
-    image: "../avatar.png",
+    image: "../images/avatar.png",
     url: "https://github.com/emirongrr/webProgramming"
   },
   {
@@ -44,6 +44,60 @@ const projects = [
     image: "",
     url: ""
   },
+  {
+    id:2,
+    name: "Verkle Trees",
+    shortDescription: "trees",
+    tags: ["all","crypto","ethereum"],
+    year: "2021",
+    image: "../images/",
+    url: ""
+},
+{
+  id:2,
+  name: "Statelessness",
+  shortDescription: "no state",
+  tags: ["all","crypto","ethereum"],
+  year: "2021",
+  image: "../images/",
+  url: ""
+},
+{
+  id:2,
+  name: "Merkle Trees",
+  shortDescription: "trees",
+  tags: ["all","crypto","ethereum"],
+  year: "2021",
+  image: "../images/",
+  url: ""
+},
+{
+  id:2,
+  name: "EIP-1559",
+  shortDescription: "eips",
+  tags: ["all","crypto","ethereum"],
+  year: "2021",
+  image: "../images/",
+  url: ""
+},
+{
+  id:2,
+  name: "ECC",
+  shortDescription: "ecc",
+  tags: ["all","crypto","ethereum"],
+  year: "2021",
+  image: "../images/",
+  url: ""
+},
+{
+  id:2,
+  name: "Hop Protocol",
+  shortDescription: "hop hop",
+  tags: ["all","crypto","ethereum"],
+  year: "2021",
+  image: "../images/",
+  url: ""
+},
   
 ]
 

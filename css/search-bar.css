@@ -1,3 +1,31 @@
-.search-bar {
 
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+input {
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  border: 4px solid lightgray;
+  background: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Charriot Deluxe', sans-serif;
+  outline: 0;
+  padding: .5rem;
+  margin-top: 1rem; 
+  margin-bottom: 1rem;
+  box-shadow:4px 4px 8px 0px rgba( 0, 0, 0, 0.2 );
+  text-align: center;
+  height: 50px;
+  width: 300px;
+}
+
+
+
+input::placeholder{
+  color: lightgray;
 }
