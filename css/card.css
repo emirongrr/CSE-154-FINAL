@@ -4,7 +4,7 @@
   display: grid;
   grid-gap:30px;
   justify-items:center;
-  grid-template-columns: auto auto auto ;
+  grid-template-columns:auto auto auto;
   margin: 0 auto;
   width: fit-content;
 	margin-top: 30px;
@@ -74,8 +74,11 @@
   border-radius: 5px;
   min-height: 250px;
   min-width: 500px;
+  display: block;
   max-width: 500px;
   }
+
+  
 
 .title-bar {
 

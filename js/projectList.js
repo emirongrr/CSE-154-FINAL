@@ -90,7 +90,7 @@ const projects = [
   url: ""
 },
 {
-  id:2,
+  id:3,
   name: "Hop Protocol",
   shortDescription: "hop hop",
   tags: ["all","crypto","ethereum"],
