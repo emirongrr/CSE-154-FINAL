@@ -1,12 +1,10 @@
 @import url('http://fonts.cdnfonts.com/css/charriot-deluxe');
 
 .card-section {
-  display: grid;
-  grid-gap:30px;
+  display: flex;
   justify-items:center;
-  grid-template-columns: auto auto auto ;
-  margin: 0 auto;
-  width: fit-content;
+  justify-content: center;
+  flex-wrap: wrap;
 	margin-top: 30px;
 }
 
@@ -76,6 +74,7 @@
   min-width: 500px;
   display: block;
   max-width: 500px;
+  margin: 20px 20px;
   }
 
   
