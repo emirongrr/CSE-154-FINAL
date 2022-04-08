@@ -1,25 +1,21 @@
-const allNamesDomCollections = document.querySelectorAll('.card');
-const searchInput = document.getElementById('searchInput');
+let search = document.getElementById("searchInput");
+let allNamesDOMCollection = document.getElementsByClassName("card");
+console.log(allNamesDOMCollection[0].textContent);
 
-let names = [];
+search.addEventListener("keyup", function (event) {
+  let searchQuery = event.target.value.toLowerCase();
+  console.log(searchQuery);
+  let allNamesDOMCollection = document.getElementsByClassName("card");
+  console.log(allNamesDOMCollection[0].textContent);
 
-allNamesDomCollections.forEach(node => names.push(node.innerText));
+  for (let i = 0; i < allNamesDOMCollection.length; i++) {
+    const currentName = allNamesDOMCollection[i].textContent.toLowerCase();
+    console.log(currentName);
 
-searchInput.addEventListener('keyup', e => {
-  let searchStr = e.target.value.toLowerCase();
-  
-  let matchedNames = names.filter(name =>
-    name.toLowerCase().includes(searchStr)
-  );
-  render(matchedNames);
+    if (currentName.includes(searchQuery)) {
+      allNamesDOMCollection[i].style.display = "block";
+    } else {
+      allNamesDOMCollection[i].style.display = "none";
+    }
+  }
 });
-
-const render = matchedNames => {
-
-  allNamesDomCollections.forEach(name => {
-    matchedNames.includes(name.innerText)
-      ? (name.style.display = 'block')
-      : (name.style.display = 'none');
-  });
-};
-
