@@ -1,4 +1,3 @@
-
 var dynamic = document.querySelector('.card-section');  
 for (var i = 0; i < projects.length; i++) {
   var fetch = document.querySelector('.card-section').innerHTML;
