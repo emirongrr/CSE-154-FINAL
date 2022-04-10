@@ -1,0 +1,26 @@
+#filter-buttons {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+
+.btn {
+  border: none;
+  outline: none;
+  margin:  10px 10px;
+  background-color: transparent;
+  cursor:pointer;
+  font-size: medium;
+  font-family: 'Press Start 2P';
+
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+
+.btn.active {
+  background-color: rgb(255, 121, 143);
+}

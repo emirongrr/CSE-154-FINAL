@@ -1,4 +1,10 @@
-@import url('http://fonts.cdnfonts.com/css/charriot-deluxe');
+@font-face {
+  font-family: 'Charriot Deluxe';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Charriot Deluxe'), url('https://fonts.cdnfonts.com/s/7627/CharriotDeluxe.woff') format('woff');
+}
+
 
 .card-section {
   display: flex;
@@ -62,9 +68,8 @@
   font-family: 'Press Start 2P';
   
 }
-.hide{
-  display: none;
-}
+
+
 .card {
   background-color: #ff9800;
   border: 3px solid lightgray;
@@ -72,12 +77,14 @@
   border-radius: 5px;
   min-height: 250px;
   min-width: 500px;
-  display: block;
   max-width: 500px;
+  display: none;
   margin: 20px 20px;
   }
 
-  
+  .show {
+    display: block;
+  }
 
 .title-bar {
 

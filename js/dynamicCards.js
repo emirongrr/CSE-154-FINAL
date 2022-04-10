@@ -3,7 +3,7 @@ for (var i = 0; i < projects.length; i++) {
   var fetch = document.querySelector('.card-section').innerHTML;
   dynamic.innerHTML = `  
         <a href="${projects[i].url}">
-        <div class="card">
+        <div class="card ${projects[i].tags}">
             <div class="title-bar">
               <div id="red"></div>
               <div id="orange"></div>
@@ -18,7 +18,6 @@ for (var i = 0; i < projects.length; i++) {
                   <h3 id="info-title">${projects[i].name}</h3>
                   <p id="year"><b>Year:${projects[i].year}</b></p>
                   <span id="short-description"><p>${projects[i].shortDescription}</span>   
-                  <p hidden>p${projects[i].tags}</p>
               
                 </div>
             </div>
