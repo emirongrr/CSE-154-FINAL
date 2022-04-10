@@ -15,6 +15,7 @@
 
 
   <body >
+
     <div class="header">
       <nav class="navbar">
         <li><a  class="blue" href="landingPage.html">Home</a></li>
@@ -24,11 +25,26 @@
       </nav>
     </div>
 
+
     <div class="search-container">
     <input id="searchInput" type="text" placeholder="Filter By Title"/>  
     </div>
 
-      <div class="card-section"> </div>
+    <div id="filter-buttons">
+
+      <button class="btn active" onclick="filterCards('all')">$all</button>
+      <button class="btn" onclick="filterCards('software')">$software</button>
+      <button class="btn" onclick="filterCards('python')">$python</button>
+      <button class="btn" onclick="filterCards('ethereum')">$ethereum</button>
+      <button class="btn" onclick="filterCards('web')">$web</button>
+      <button class="btn" onclick="filterCards('article')">$article</button>
+      <button class="btn" onclick="filterCards('nft')">$nft</button>
+
+    </div>
+
+
+    <div class="card-section"> </div>
+
     
   
 
@@ -60,5 +76,8 @@
   </body>
   <script src="../js/dynamicCards.js" type="text/javascript" charset="utf-8"></script>
   <script src="../js/dataSearch.js"></script>
+  <script src="../js/filterCards.js"></script>
+
+  
 
   </html>
