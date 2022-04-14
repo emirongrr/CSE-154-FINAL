@@ -1,13 +1,12 @@
 .fo {   
   display: flex;
   justify-content: center;
-  font-family: Nunito ;
+  font-family: 'Nunito';
   position: relative;
   justify-self: center;
   width: 100%;
   margin-top: auto;
   bottom: 0;
-
 
 }
 
@@ -60,4 +59,3 @@
 }
 
 
- 

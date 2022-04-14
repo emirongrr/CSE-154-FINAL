@@ -1,0 +1,32 @@
+.pixelized-container {
+
+  position: absolute;
+  padding: 1.5rem 2rem;
+  border-color: #000;
+  border-style: solid;
+  border-width: 4px;
+  top:20%;
+  left: 60%;
+  width: 600px;
+  height: 400px;
+
+}
+
+.pixelized-container>.title {
+  display: table;
+  padding: 0 0.5rem;
+  margin: -1.8rem 0 1rem;
+  font-size: 1rem;
+  background-color: #fff;
+  font-family: "Press Start 2P";
+  font-weight: 400;
+  line-height: 1.5;
+
+}
+
+.pixelized-container p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
