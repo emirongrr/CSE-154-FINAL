@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-  <script src="../js/projectList.js"></script>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#000000">
   <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=VT323" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <link rel="stylesheet" href="../css/main.css">
-  <link rel="icon" href="../images/favicon.ico">
-
   <title>Emir Öngörür</title>
 </head>
 
 
 <body>
-
   <div class="header">
     <nav class="navbar">
       <li><a class="blue" href="landingPage.html">Home</a></li>
@@ -28,25 +24,19 @@
     </nav>
   </div>
 
+  <main>
+    <div id="tabs">
+      <div class="tab">cmd.exe</div>
+    </div>
+    <pre contenteditable="true">
+      <span id="typed-contact"></span>
 
-  <div class="search-container">
-    <input id="searchInput" type="text" placeholder="Filter By Title" />
-  </div>
-
-  <div id="filter-buttons">
-
-    <button class="btn active" onclick="filterCards('all')">$all</button>
-    <button class="btn" onclick="filterCards('software')">$software</button>
-    <button class="btn" onclick="filterCards('python')">$python</button>
-    <button class="btn" onclick="filterCards('ethereum')">$ethereum</button>
-    <button class="btn" onclick="filterCards('web')">$web</button>
-    <button class="btn" onclick="filterCards('article')">$article</button>
-    <button class="btn" onclick="filterCards('nft')">$nft</button>
-
-  </div>
+    </pre>
+  </main>
 
 
-  <div class="card-section"> </div>
+
+
 
 
 
@@ -87,14 +77,45 @@
 
 
 
-
-
 </body>
-<script src="../js/dynamicCards.js" type="text/javascript" charset="utf-8"></script>
-<script src="../js/filterCards.js"></script>
-<script src="../js/dataSearch.js"></script>
+<script>
+
+  var text2 = ` 
+      Console 
+      Copyright (©) Decentralized Society 2022. All rights reserved. 
+            
+      SH C:\win32> py 
+      Python 3.10.2 [64 bit] on win32 
+      Type "help", "copyright", "credits" or "license" for more information. 
+
+      you can contact me if you need: 
+      do coding for anything 
+      if you think you have a great idea 
+      if you have any questions about my works 
+      just want to say hi 
 
 
+      Directory of: C:\win32\contact.py 
+      >>> <span class="cmd">print(info)</span> 
+      Name       : {Emir} 
+      Mail       : {emirongrr@gmail.com} 
+      Links      : {https://emirongrr.github.io/} 
+      Phone      : xxx 
+      >>>  
 
+            
+      SH C:\win32> <a href="mailto:emirongrr@gmail.com">Send a mail to emirongrr@gmail.com</a>  <span id="blink">_</span>
+    `;
+
+
+  var typed = new Typed('#typed-contact', {
+    strings: [text2],
+    typeSpeed: 10,
+    contentType: 'html',
+    showCursor: false,
+
+  });
+
+</script>
 
 </html>

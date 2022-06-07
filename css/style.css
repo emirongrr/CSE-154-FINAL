@@ -8,12 +8,13 @@ body {
     height: 100vh;
     animation: efect 60s ease infinite;
     z-index: -2;
-  }
+}
 
 
 html {
     min-height: 100%;
 }
+
 .container {
     flex: 1;
 }
@@ -21,35 +22,35 @@ html {
 
 .sasa {
 
-    text-align:center;
+    text-align: center;
     margin: 5rem;
     color: transparent;
-    font-weight:600;
+    font-weight: 600;
     font-family: 'Press Start 2P';
     font-size: 40px;
     line-height: 40px;
     letter-spacing: 5px;
     text-shadow: -2px 0 0 #fdff2a,
-      -4px 0 0 #df4a42,
-      2px 0 0 #91fcfe,
-      4px 0 0 #4405fc;    
-      animation: glitch 3s ease-in reverse infinite;
+        -4px 0 0 #df4a42,
+        2px 0 0 #91fcfe,
+        4px 0 0 #4405fc;
+    animation: glitch 3s ease-in reverse infinite;
 
 
 }
 
-  
+
 
 svg {
-    display:inline-block;
-    height:2rem;
-    width:2rem;
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
 }
 
 #font {
-    font-weight:900;
-    display:block;
-    font-size:.875rem;
+    font-weight: 900;
+    display: block;
+    font-size: .875rem;
 }
 
 
@@ -58,28 +59,38 @@ svg {
     0% {
         background-position: 0% 50%
     }
+
     50% {
         background-position: 100% 50%
     }
+
     100% {
         background-position: 0% 50%
     }
-  }
-  
-  .blue {
+}
 
-      color:rgb(45, 226, 226);
-  }
-  .orange {
-      color:rgb(209, 95, 2);
-  }
-  .yellow {
+.blue {
 
-      color:rgb(224, 224, 14);
-  }
-  .pink{
-      color:rgb(238, 107, 234);
-  }
+    color: rgb(45, 226, 226);
+}
+
+.orange {
+    color: rgb(209, 95, 2);
+}
+
+.yellow {
+
+    color: rgb(224, 224, 14);
+}
+
+.pink {
+    color: rgb(238, 107, 234);
+}
+
+.red {
+    color: #ff4136;
+}
+
 .pstart {
     font-family: 'Press Start 2P';
 
@@ -87,17 +98,14 @@ svg {
 
 li {
     list-style: none;
-   }
+}
+
 a {
     text-decoration: none;
-   }
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   }
-
-   
-
-
+}

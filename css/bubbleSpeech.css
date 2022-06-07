@@ -2,10 +2,10 @@
 ::after,
 ::before {
   box-sizing: border-box;
-  
+
 }
 
-.storyPage{
+.storyPage {
   font-family: "Press Start 2P", cursive;
   line-height: 1.5;
   font-size: 16px;
@@ -29,11 +29,11 @@
   min-height: 35vh;
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .message {
-  margin: 60px 0;
+  margin: 40px 0;
   display: flex;
   width: 100%;
 }
@@ -42,13 +42,13 @@
   display: flex;
   align-items: flex-end;
   width: 100%;
-  
+
 }
 
 @media (max-width: 520px) {
   .message-container {
     flex-direction: column;
-    
+
   }
 
   .avatar {
@@ -58,7 +58,7 @@
   .message-left .message-container {
     align-items: flex-start;
     flex-direction: column-reverse;
-    
+
   }
 }
 
@@ -76,20 +76,21 @@
 
 .message-right {
   align-self: flex-end;
-  
+
 }
 
 .message-left .avatar {
   margin-right: 20px;
 }
+
 .message-right .avatar {
   margin-left: 20px;
 }
 
 .balloon {
-  width: 600px;
+  width: 750px;
   max-width: 100%;
-  padding: 15px;
+  padding: 10px;
   box-sizing: border-box;
   position: relative;
   box-shadow: 0 5px #fff, 0 10px #000, 0 -5px #fff, 0 -10px #000, -5px 0 #fff,
@@ -100,7 +101,7 @@
 
 .balloon p {
   word-wrap: break-word;
-  
+
 }
 
 .balloon-right:after,
@@ -110,7 +111,7 @@
   background: #000;
   width: 5px;
   height: 5px;
-  
+
 }
 
 .balloon-left:after {
@@ -120,9 +121,9 @@
     25px -5px #fff, 0 5px #000, -5px 10px #000, -10px 15px #000, -10px 20px #000,
     -5px 20px #000, 0 20px #000, 5px 20px #000, 10px 20px #000, 15px 20px #000,
     20px 15px #000, 25px 10px #000, 30px 5px #000, 30px 0 #000;
-    background-color: white;
+  background-color: white;
 
-  
+
 }
 
 .balloon-right:after {
