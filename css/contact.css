@@ -68,3 +68,9 @@ pre:focus {
   appearance: none;
   outline: none;
 }
+
+.link {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}

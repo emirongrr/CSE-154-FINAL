@@ -48,8 +48,13 @@
 
   <div class="card-section"> </div>
 
-
-
+  <div class="subs-container">
+    <form method="post" action="../php/submit.php">
+      <input type="text" name="email" value="your@email.com"
+        onfocus="if(!this._haschanged){this.value=''};this._haschanged=true;">
+      <input type="submit" value="Subscribe">
+    </form>
+  </div>
 
   <div class="fo">
     <footer class="fo-items">
@@ -84,17 +89,11 @@
 
     </footer>
   </div>
-
-
-
-
-
 </body>
+
 <script src="../js/dynamicCards.js" type="text/javascript" charset="utf-8"></script>
 <script src="../js/filterCards.js"></script>
 <script src="../js/dataSearch.js"></script>
-
-
 
 
 </html>

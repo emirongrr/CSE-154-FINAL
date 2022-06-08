@@ -109,3 +109,11 @@ a {
     padding: 0;
     box-sizing: border-box;
 }
+
+.subs-container {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
