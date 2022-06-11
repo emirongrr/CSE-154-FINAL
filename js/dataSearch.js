@@ -13,7 +13,7 @@ search.addEventListener("keyup", function (event) {
    //debug console.log(currentName);
 
     if (currentName.includes(searchQuery)) {
-      allNamesDOMCollection[i].style.display = "block";
+      allNamesDOMCollection[i].style.display = null;
     } else {
       allNamesDOMCollection[i].style.display = "none";
     }
