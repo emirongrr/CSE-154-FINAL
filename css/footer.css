@@ -51,11 +51,13 @@
   color: #357edd;
 
 }
-#s_insta:hover {
+
+#s_web:hover {
   text-decoration:none;
   transition: color .15s ease-in;
-  transform: scale( 1.2 ) ;
-  color: #5e2ca5;
+  transform: scale( 1.2 );
+  color: #092f61;
+
 }
 
 
